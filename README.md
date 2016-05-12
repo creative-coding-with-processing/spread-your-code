@@ -5,11 +5,11 @@ When pushing to this repo, please try to use the folowing folder structure:
 
 ```
 firstName-lastNameFolder
-  |   aboutme.md
+  |   hi.md
   ├───projectNameFolder
 		codeDocument.file
 ```   
 
-In the __about.md__ file you can add any details about you, like your full name, portfolio or any other links you consider important.
+In the __hi.md__ file you can add any details about you, like your full name, portfolio or any other links you consider important.
 
 Just add some of your works to this repository now! 
