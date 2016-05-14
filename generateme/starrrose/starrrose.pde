@@ -19,7 +19,8 @@ void draw() {
   background(#E8DDCB);
   
   float st = sin(time/100.0);
-  
+ 
+  // update parametrization 
   sr_a = 100 * st * (noise(time/200.0, -time/100.0)-0.5);
   sr_b = 100 * st * (noise(4+time/200.0,1,time/100.0)-0.5);
   sr_c = 100 * st * (noise(3-time/200.0)-0.5);
@@ -42,4 +43,8 @@ void drawCurve() {
       point(x, y);
     }
   }
+}
+
+void keyPressed() {
+  if(keyCode == 32) saveFrame("sr######.jpg");
 }
